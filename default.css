@@ -372,3 +372,18 @@ h6 {font-size: 16px;}
         justify-content: center;
     }
 }
+
+@media screen and (max-width: 500px) {
+    #preview-shadow {
+        background-color: transparent;
+        width: unset;
+        height: unset;
+        padding-left: unset;
+        padding-right: unset;
+    }
+
+    #preview {
+        width: unset;
+        margin: 0 10px;
+    }
+}
